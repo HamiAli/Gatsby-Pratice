@@ -1,8 +1,8 @@
 import React from 'react';
 import Layout from "../component/layout";
 
-export default function Home() {
+export default function contact() {
     return <Layout>
-        <h1>This is Home page</h1>
+        <h1>This is contact page</h1>
     </Layout>
 }

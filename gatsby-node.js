@@ -8,8 +8,8 @@ let arr =[{
 
 exports.createPages = async function ({ actions }) {
   actions.createPage({
-    path: "my-dynamic-page",
-    component: require.resolve(`./src/templates/dynamic-page.tsx`),
+    path: "friuts",
+    component: require.resolve(`./src/templates/friuts.tsx`),
     context: {
       name: "hamid",
       age: "!3",
