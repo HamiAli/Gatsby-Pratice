@@ -1,10 +1,3 @@
-let arr =[{
-    name: "hamid",
-    age: "",
-  
-}]
-
-
 
 exports.createPages = async function ({ actions }) {
   actions.createPage({
