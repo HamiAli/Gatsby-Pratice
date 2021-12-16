@@ -1,8 +1,13 @@
 module.exports = {
-    siteMetadata: {
-        siteUrl: `https://www.yourdomain.tld`,
+  
+  plugins: [
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `0todzzvpdado`,
+        accessToken: "TvcNn3eMZ4lYmOcQlr1TlVKorM-nLmmI6vNJk0Pu5x4",
+      },
     },
-    plugins: [
-
-    ]
+      'gatsby-plugin-image',
+  ],
 }
